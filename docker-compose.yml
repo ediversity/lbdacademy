@@ -1,0 +1,18 @@
+version: '2'
+services:
+  web:
+    image: wordpress:latest
+    ports:
+      - 8080:80
+    working_dir: /var/www/html
+    links:
+      - mysql
+    volumes:
+      - ./wordpress/wp-content/:/var/www/html/wp-content
+    environment:
+      - WORDPRESS_DB_PASSWORD=password
+  mysql:
+    image: mysql:latest
+    environment:
+      - MYSQL_ROOT_PASSWORD=password
+      - MYSQL_DATABASE=wordpress
