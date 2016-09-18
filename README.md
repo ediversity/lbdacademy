@@ -9,5 +9,5 @@
 ### Running locally
 1. Install Docker with Docker Compose.
 1. Put themes and plugins inside `wordpress/wp-content`.
-1. Run `docker-compose up`.
+1. Run `docker-compose up --build`.
 1. Visit `http://localhost:8080` for initial setup.

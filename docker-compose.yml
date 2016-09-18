@@ -1,7 +1,7 @@
 version: '2'
 services:
   web:
-    image: wordpress:latest
+    build: .
     ports:
       - 8080:80
     working_dir: /var/www/html
