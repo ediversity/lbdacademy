@@ -1,0 +1,30 @@
+#ui-datepicker-div {
+  z-index: 15 !important;
+}
+
+/* 44 - START NICDARKCALENDAR*/
+.nicdark_picker.ui-datepicker{ float: left; width: 300px; position: relative; border:1px solid #E7E7E7;}
+.grid .ui-datepicker{ float: left; width: 100%; }
+/*header*/
+.nicdark_picker.ui-datepicker .ui-datepicker-header{ background-color: #222; float: left; width: 100%; }
+.nicdark_picker.ui-datepicker .ui-datepicker-title { float: left; width: 100%; padding: 15px 0px; text-align: center; font-size: 13px; line-height: 17px; font-family: "Open Sans",sans-serif; color: #fff; text-transform: uppercase; }
+/*arrows*/
+.nicdark_picker.ui-datepicker .ui-datepicker-prev span, .nicdark_picker.ui-datepicker .ui-datepicker-next span{ display: none; }
+.nicdark_picker.ui-datepicker .ui-datepicker-prev{ position: absolute; left:0; top: 15px; margin-left: 20px; }
+.nicdark_picker.ui-datepicker .ui-datepicker-prev:before{ content: '\ea73' !important; font-family: 'fontello'; color: #fff; cursor: pointer; }
+.nicdark_picker.ui-datepicker .ui-datepicker-next{ position: absolute; right:0; top: 15px; margin-right: 20px; }
+.nicdark_picker.ui-datepicker .ui-datepicker-next:before{ content: '\ea75' !important; font-family: 'fontello'; color: #fff; cursor: pointer; }
+/*days*/
+.nicdark_picker.ui-datepicker .ui-datepicker-calendar{ float: left; width: 100%; border-collapse: collapse; text-align: center; background-color: #f4f4f4; }
+.nicdark_picker.ui-datepicker .ui-datepicker-calendar thead{ background-color: #0074a2; color: #fff; font-size: 12px; line-height: 13px; font-family: "Open Sans",sans-serif; font-weight: normal; text-transform: uppercase; }
+.nicdark_picker.ui-datepicker .ui-datepicker-calendar tbody{  }
+.nicdark_picker.ui-datepicker .ui-datepicker-calendar th{ font-weight: normal; padding: 15px 10px; }
+.nicdark_picker.ui-datepicker .ui-datepicker-calendar td{ font-weight: normal; box-shadow:inset -1px 1px 0px 0px #fcfcfc}
+.nicdark_picker.ui-datepicker .ui-datepicker-calendar td a{ font-size: 12px; padding: 10px 10px; line-height: 15px; color: #a4a4a4; display: block; text-decoration: none;}
+.nicdark_picker.ui-datepicker .ui-datepicker-unselectable { background-color: #fff; }
+/*today*/
+.nicdark_picker.ui-datepicker .ui-datepicker-today a { color: #fff !important; background-color: #0074a2;}
+.nicdark_picker.ui-datepicker .ui-datepicker-other-month {  }
+/*hover*/
+.nicdark_picker.ui-datepicker .ui-datepicker-calendar .ui-state-hover{ color: #fff !important; background-color: #0074a2; }
+/*END NICDARKCALENDAR*/
